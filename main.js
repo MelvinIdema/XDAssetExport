@@ -50,7 +50,7 @@ function exportCss(){
 }
 
 function goToSupport(){
-  shell.openExternal("https://www.melvinidema.nl")
+  shell.openExternal("https://github.com/MelvinIdema/XDAssetExport/blob/master/README.md")
 }
 
 module.exports = {
