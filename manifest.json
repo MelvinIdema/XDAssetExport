@@ -1,0 +1,40 @@
+{
+  "name" : "AssetExport",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0.0"
+  },
+  "description" : "AssetExport is a plugin build to extract all colors in your Assets to either SASS or CSS variables. Simple but effective for an easier workflow.",
+  "id" : "a7d7a9c8",
+  "icons" : [ {
+      "path" : "assets/icons/icon.png",
+      "width" : 512,
+      "height" : 512
+    } ],
+  "uiEntryPoints" :
+  [
+    {
+      "label" : "Export Colors",
+      "type" : "menu",
+      "menuItems":
+      [
+        {
+          "type": "menu",
+          "label": "Export as SCSS",
+          "commandId": "exportSass"
+        },
+        {
+          "type": "menu",
+          "label": "Export as CSS",
+          "commandId": "exportCss"
+        },
+        {
+          "type": "menu",
+          "label": "Support",
+          "commandId": "goToSupport"
+        }
+      ]
+    }
+  ],
+  "version" : "1.2.1"
+}
